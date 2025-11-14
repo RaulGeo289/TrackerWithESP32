@@ -4,10 +4,8 @@
 credentials.json
 secrets.h
 
-# Directorul .pio conține TOATE uneltele și fișierele de build
 .pio/
 
-# Dependințe (dacă folosești o versiune veche)
 .piolibdeps/
 
 # Configurare locală a proiectului
@@ -25,7 +23,6 @@ build/
 *.o
 *.a
 
-# Configurare SDK (generată automat)
 sdkconfig
 sdkconfig.old
 
