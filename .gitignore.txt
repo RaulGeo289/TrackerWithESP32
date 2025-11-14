@@ -1,0 +1,43 @@
+
+# Nu publica NICIODATĂ parole, chei API sau secrete.
+.env
+*.key
+credentials.json
+secrets.h
+
+# Directorul .pio conține TOATE uneltele și fișierele de build
+.pio/
+
+# Dependințe (dacă folosești o versiune veche)
+.piolibdeps/
+
+# Configurare locală a proiectului
+platformio.ini.local
+
+# Directoare de build
+build/
+.build/
+
+# Fișiere binare compilate și de mapare
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+
+# Configurare SDK (generată automat)
+sdkconfig
+sdkconfig.old
+
+# Componente descărcate
+components/
+
+# Fișiere specifice editorului de cod
+.vscode/
+.idea/
+
+# Fișiere de sistem de operare
+.DS_Store
+Thumbs.db
+desktop.ini
