@@ -1,5 +1,4 @@
 
-# Nu publica NICIODATĂ parole, chei API sau secrete.
 .env
 *.key
 credentials.json
